@@ -1,0 +1,101 @@
+/*Indexito*/
+div.container {
+  color: black;
+  background-color: #dcbfff;
+  width: 100%;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2); }
+
+.navbar, #titleid {
+  font-family: "Mystery Quest", cursive; }
+
+body {
+  font-family: "Handlee", cursive; }
+
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both; } }
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0; }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1; }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0; } }
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1; }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0; } }
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn; }
+
+/*Contact Section*/
+#contenedor_c {
+  width: 960px;
+  height: 600px;
+  margin: auto; }
+
+#pagina_c {
+  width: 960px;
+  height: 500px;
+  background-color: #98D4F6; }
+
+form {
+  margin: 0 auto;
+  width: 800px;
+  padding: 100px; }
+
+input, textarea {
+  margin-top: 10px;
+  width: 500px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+label {
+  width: 200px;
+  text-align: right;
+  display: inline-block; }
+
+textarea {
+  vertical-align: top;
+  height: 100px; }
+
+.boton_enviar, .boton_borrar {
+  width: 100px;
+  float: right;
+  margin-right: 97px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: linear-gradient(#fff, #ccffff, #5a5a5a); }
+
+.boton_borrar {
+  margin-right: 5px; }
+
+.boton_enviar:hover, .boton_borrar:hover {
+  width: 100px;
+  float: right;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: linear-gradient(#5a5a5a, #ccffff, #fff); }
+
+/*Footercito*/
+.foot {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  border-radius: 10px; }

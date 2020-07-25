@@ -1,9 +1,20 @@
+$sometext: 'Mystery Quest', cursive;
+$bodytext: 'Handlee', cursive;
+
 /*Indexito*/
 div.container {
  color: black;
- background-color: #fffdeb;
+ background-color: #dcbfff;
  width: 100%;
  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar, #titleid {
+	font-family: $sometext;
+}
+
+body {
+	font-family: $bodytext;
 }
 
 @media (min-width: 992px) {
@@ -54,7 +65,6 @@ div.container {
 #contenedor_c{
 	width: 960px;
 	height: 600px;
-	background-color: #CCC;
 	margin: auto;
 }
 
@@ -111,7 +121,6 @@ textarea {
 
 /*Footercito*/
 .foot {
-	font-family: $foot;
 	background-color: black;
 	color: white;
 	padding: 30px;

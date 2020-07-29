@@ -12,12 +12,15 @@
   <!-- Google Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
    <div class="container">
-<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Castle Oblivion</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -31,8 +34,7 @@
         </a>
           <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
           <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="views/store.html">Destiny Store</a>
-            <a class="dropdown-item" href="views/multimedia.html">Multimedia</a>            
+            <a class="dropdown-item" href="views/store.html">Destiny Store</a>           
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="views/contact.html">Contact Section</a>
           </div>
@@ -41,27 +43,27 @@
     </div>
 </nav>
 
-  <h1 class="mt-5 text-black font-weight-light text-center" id="titleid">Castle Oblivion</h1>
-  <p class="lead text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<br>
-<br>
   
    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="d-block w-100" src="img/oblivion castle.jpg" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/oblivion2.png" alt="Second slide">
+        <img class="d-block w-100" src="img/oblivion2.jpg" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/oblivion3.jpg" alt="Third slide">
+        <img class="d-block w-100" src="img/khbirth.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/kh2.jpg" alt="Fourth slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -83,19 +85,184 @@
   </div>
   </div>
   <br>
-  <br>
-  <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <div class="iframegame"><iframe class="iframekh" width="560" height="315" src="https://www.youtube.com/embed/w2yDdr8r6Nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    </div>
+
+<!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-secondary mb-0">My space</h2>
+                <br>
+                
+                <!-- Portfolio Grid Items-->
+                <div class="row">
+                    <!-- Portfolio Item 1-->
+                    
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid img-thumbnail" src="portfolio/gamingicon.jpg" alt="Blue Diamonds" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid img-thumbnail" src="portfolio/labresin.png" alt="Resin S.A." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid img-thumbnail" src="portfolio/saoicon1.jpg" alt="SAO icon" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Videojuegos: Blue Diamonds</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal BLUE DIAMONDS - Image-->
+                                    <a href="https://blue-diamonds.net/" target="blank"><img class="img-fluid rounded mb-5" src="portfolio/bluediamonds.png" alt="Blue Diamonds" /></a>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Página de Videojuegos, realizada con HTML5, CSS, SASS y Bootstrap. Por favor, para acceder pincha en la imagen o en el siguiente <a href="https://blue-diamonds.net/" target="blank">link.</a></p>
+                                    <button class="btn btn-info" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Resin S.A.</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal RESIN - Image-->
+                                    <a href="https://resinsa.com.ar/" target="blank"><img class="img-fluid rounded mb-5" src="portfolio/resinsa.png" alt="Resin S.A." /></a>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Página de Pinturas Industriales, realizada con HTML, CSS y Javascript. Por favor, para ingresar pincha en la imagen o en el siguiente <a href="https://resinsa.com.ar/" target="blank">link.</p></a>
+                                    <button class="btn btn-info" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Sword Art Online</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <a href="http://anime.softwaresolutionservices.com/" target="blank"><img class="img-fluid rounded mb-5" src="portfolio/saopage.png" alt="Sword Art Online Page" /></a>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Página de Anime Sword Art Online, realizada con HTML5 y CSS. Para ingresar por favor pinchar en la imagen o en el siguiente <a href="http://anime.softwaresolutionservices.com/" target="blank">link.</a></p>
+                                    <button class="btn btn-info" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquid provident facere consectetur, culpa delectus cumque libero, iure, consequuntur, quos quam numquam incidunt. Quia quas iusto inventore, ab modi perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut modi odio ea voluptas officiis, labore earum laboriosam obcaecati recusandae sunt, quaerat architecto sit omnis debitis ex excepturi assumenda molestias! Doloremque.</p>
   </div>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consectetur, incidunt. Inventore itaque dolore at, similique, suscipit enim aperiam dicta atque repellat perspiciatis hic eius qui voluptas unde sed, ratione?</p>
-
-<footer class="foot">
-  <p align="center">&copy; 2020 Eugenia Simpson<p>
-</footer>
 </div>
+<hr />
+   <footer class="footer text-center">
+              <div class="container">
+                  <div class="row">
+                      <!-- Footer Location-->
+                      <div class="col-lg-4 mb-5 mb-lg-0">
+                        <img src="img/kairisorariku.png" width="100%" alt="kairi"> 
+                      </div>
+  <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+      <h4 class="mb-4">Redes Sociales</h4>
+      <a class="btn btn-outline-light btn-social mx-1" href="https://my.playstation.com/profile/Cithria" target="blank"><i class="fab fa-playstation"></i></a>
+      <a class="btn btn-outline-light btn-social mx-1" href="https://steamcommunity.com/id/SpiritBlossom" target="blank"><i class="fab fa-steam"></i></a>
+  </div>
+  <!-- Footer About Text-->
+  <div class="col-lg-4">
+    <img src="img/sinon.png" width="100%" alt="Sinon">
+  </div>
+  </div>
+  </div>
+  </footer>
+<br>
+<div class="foot text-center">
+    <p>Eugenia Simpson ©  2020</p>
+  </div>
+</div>
+
+
 </body>
 </html>
 

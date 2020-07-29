@@ -72,10 +72,7 @@ body {
   height: auto;
 }
 
-.img-thumbnail {
- max-width: 100%;
-  height: auto;
-}
+
 #content_d {
   font-family: Times New Roman;
   width: 225px;

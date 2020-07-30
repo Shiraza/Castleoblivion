@@ -13,7 +13,7 @@
   </head>
 
   <body>
-		<div id="contenedor_c">
+		<div id="contacto">
 			
 			<section id="pagina_c">
 				<?php

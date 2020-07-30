@@ -18,26 +18,25 @@
 
 <body>
   <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="../index.html">Castle Oblivion</a>
+  <nav class="mb-4 navbar navbar-expand-lg navbar-light pink lighten-4 fixed-top">
+    <a class="navbar-brand" href="index.html">Castle Oblivion</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
   </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+             <a class="nav-link font-bold" href="views/store.html">Destiny Store</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link font-bold" href="#">Dolls</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link font-bold" href="views/contact.html">Contact</a>
+          </li>
+        </ul>
+          
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Sections
-        </a>
-          <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
-          <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../views/store.html">Destiny Store</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="../views/contact.html">Contact Section</a>
-          </div>
-        </li>
-      </ul>
     </div>
 </nav>
  <div class="row">
@@ -45,25 +44,55 @@
      <img src="../img/Castle_Oblivion.png" width="30%" alt="Castle">
    </div>
  </div>
-  <div id="contenedor_c">
     
-      <section id="pagina_c">
+
+
+<div class="col-md-12">
+        <h2 class="text-uppercase mt-3 font-weight-bold text-white">CONTATTACI</h2>
         <form action="../assets/contact.php" method="POST">
-                    <label>Nombre: </label>
-          <input type="nombre" required="true" name="nombre" placeholder="Nombre"><br>
-          <label>E-mail: </label>
-          <input required="true" type="email" name="email" placeholder="Email"><br>
-          <label>Telefono: </label>
-          <input type="tel" name="telefono" placeholder="Telefono"><br>
-          <label>Mensaje: </label>
-          <textarea required="true" name="mensaje" placeholder="Mensaje"></textarea><br>
-          <input class="boton_enviar" type="submit" name="enviar">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="text" class="form-control mt-2" placeholder="Nome/Società" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="text" class="form-control mt-2" placeholder="Oggetto" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="email" class="form-control mt-2" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="number" class="form-control mt-2" placeholder="Telefono" required>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Inserisci testo" rows="3" required></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Accetta le condizioni
+                </label>
+              </div>
+              <input class="boton_enviar" type="submit" name="enviar">
           <input class="boton_borrar" type="reset" value="Borrar">
-        </form>
-      </section>
-      
-    </div>  
-    
+        
+            </div>
+            </div>
+  </form>
+
+</div>
+  </div> 
 <hr />
    <footer class="footer text-center">
               <div class="container">

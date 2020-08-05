@@ -81,6 +81,7 @@ body {
 
 /*Footercito*/
 .foot {
+  font-family: 'Mystery Quest', cursive;
   background-color: black;
   color: white;
   padding: 30px;
@@ -88,7 +89,7 @@ body {
 }
 
 /*Mediaqueries*/
-/*medias*/
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
   
